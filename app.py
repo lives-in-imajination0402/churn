@@ -96,7 +96,7 @@ for feature in numerical_features:
 # Feature scaling
 sc = StandardScaler()
 data['Subscription_Length_Months'] = sc.fit_transform(data[['Subscription_Length_Months']])
-data['Monthly_Bill'] = sc.fit_transform(data[['Monthly_Bill'])
+data['Monthly_Bill'] = sc.fit_transform(data['Monthly_Bill'])
 data['Total_Usage_GB'] = sc.fit_transform(data[['Total_Usage_GB']])
 
 # Splitting the dataset
