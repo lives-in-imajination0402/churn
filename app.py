@@ -42,7 +42,7 @@ ax = grouped_data.plot(kind='bar', figsize=(8, 6))
 
 # Customize the chart
 ax.set_xlabel('Gender')
-ax set_ylabel('Count')
+ax.set_ylabel('Count')
 ax.set_title('Churn by Gender')
 
 plt.xticks(rotation=0)  # Rotate x-axis labels if necessary
